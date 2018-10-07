@@ -1,6 +1,6 @@
 import React from 'react';
 
-class Login extends React.Component {
+class Product extends React.Component {
 	constructor(props) {
     
 	super(props);
@@ -14,7 +14,7 @@ class Login extends React.Component {
 	
 	
 	render(){
-		<div>
+		<div className = {style.product_body}>
 			<h1></h1>
 			<p></p>
 			<p></p>
@@ -24,10 +24,11 @@ class Login extends React.Component {
 	
 	}
 	
+	
 	const style = {
 		product_body : {
-			text-align: center;
-			margin: 0 auto;
+			text-align: "center";
+			margin: "0 auto";
 		}
 		
 		

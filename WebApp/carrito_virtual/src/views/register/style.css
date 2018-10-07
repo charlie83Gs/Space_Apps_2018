@@ -22,12 +22,19 @@ background-color: #e5e5e5;
 	margin-bottom: 3%;
 }
 
+.center_normal_button{
+	width: 20%;
+	font-size: 15pt;
+	padding: 10px;
+	margin-top: 3px;
+	margin-bottom: 3%;
+}
+
 .center-colum{
 	width: 40%;
 	font-size: 15pt;
 	padding: 5px;
 	margin-bottom: 2%;
-
 }
 
 .center-footer{
@@ -42,4 +49,10 @@ background-color: #e5e5e5;
 
 .positive_button{
 	background-color: #197500;
+	color: #000000;
+}
+
+.negative_button{
+	background-color: #ce2500;
+	color: #000000;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-
+import {routes, routes_singleton} from '../../constants/routes';
 
 class Login extends React.Component {
 
@@ -18,9 +18,14 @@ class Login extends React.Component {
 	
 	login(){
 		//user autentication to login with stat name and password
-		
+		routes_singleton.getInstance().setState(routes.COUNTER);
+		//console.log(routes_singleton.getInstance());
+		//routes_singleton.getInstances().setState(routes.ADMIN_MENU);
 	}
 	
+	register(){
+		routes_singleton.getInstance().setState(routes.REGISTER);
+	}
 	//{(event) => this.handleChange("username",event)}
 	/*handleChange(name, event){
 		let newValue = {};
@@ -41,13 +46,17 @@ class Login extends React.Component {
 			<div className="centered_body simlpe_bg" >
 				<h1 className="center_tittle">Bienvenido al carrito virtual</h1>
 				<div>		
-					<form onSubmit={this.login}>
+						<p>Usuario</p>
 						<input className="center-colum" value={this.state.username} 
 						onChange={this.handleChangeUser} type="text" /><br/>
+						<p>Contraseña</p>
 						<input className="center-colum" value={this.state.userpass} 
 						onChange={this.handleChangePassword} type="password" /><br/>
-						<input className="center-colum" type="submit" value="Ingresar" /><br/>
-					</form>
+						<button onClick={this.login} className="center_main_button ">Ingresar</button><br/>
+				</div>
+				<div className="center-footer ">
+					<p>¿No tienes una cuenta?</p>
+					<button onClick={this.register}>Resgitrate aqui</button>
 				</div>
 			</div>
 		);
