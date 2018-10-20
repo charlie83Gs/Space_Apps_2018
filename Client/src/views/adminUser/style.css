@@ -1,0 +1,40 @@
+
+
+.centered_body{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.simlpe_bg{
+	background-color: #e5e5e5;
+}
+
+.center_tittle{
+	font-size: 25pt;
+	margin-bottom: 6%;
+	margin-top: 6%;
+}
+
+.center-colum{
+	width: 40%;
+	font-size: 15pt;
+	padding: 5px;
+	margin-bottom: 3%;
+
+}
+
+
+.user_title{
+	font-size: 20pt;
+	width: 20%;
+	display: inline-block;
+
+}
+
+
+
+.user_table_title{
+	margin-left: 0;
+	text-align: left;
+}
+

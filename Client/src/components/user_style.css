@@ -1,0 +1,38 @@
+
+.user_body{
+	background-color: #9b81d1;
+	text-align: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000;
+}
+
+.user_body_admin{
+	background-color: #604f84;
+	text-align: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #07040c;
+}
+.user_body_admin div:hover { 
+    background-color: #7c68a8;
+}
+
+.user_body div:hover { 
+    background-color: #b397ed;
+}
+.user_title{
+	font-size: 15pt;
+	width: 40%;
+	display: inline-block;
+
+
+}
+
+.user_type{
+	font-size: 12pt;
+	width: 40%;
+	display: inline-block;
+	padding: 20px
+	}
+

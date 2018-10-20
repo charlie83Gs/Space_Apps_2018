@@ -1,0 +1,5 @@
+export const constants = {
+	API_URL : "127.0.0.1",
+	API_PORT : "7070"
+
+}
